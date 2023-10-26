@@ -1,0 +1,110 @@
+.container{
+    padding: 15rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "block1 block2 block3 block4"
+    "block5 block6 block7 block8"
+    "block9 block10 block11 block12"
+    "block13 block14 block15 block16"
+    "block17 block18 block19 block20";
+}
+input[type="text"] {
+    grid-column: span 3;
+    grid-area: block1 block2 block3;
+    width: 95%;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+#butt1 {
+    grid-area: block5;
+    color: blue;
+    font-size: larger;
+}
+
+#butt2{
+    grid-area: block6;
+    color: blue;
+    font-size: larger;
+}
+#butt3{
+    grid-area: block7;
+    color: blue;
+    font-size: larger;
+}
+#buttD{
+    grid-area: block8;
+    color: blue;
+    font-size: larger;
+}
+#butt4{
+    grid-area: block9;
+    color: blue;
+    font-size: larger;
+}
+#butt5{
+    grid-area: block10;
+    color: blue;
+    font-size: larger;
+}
+#butt6{
+    grid-area: block11;
+    color: blue;
+    font-size: larger;
+}
+#buttx{
+    grid-area: block12;
+    color: blue;
+    font-size: larger;
+}
+#butt7{
+    grid-area: block13;
+    color: blue;
+    font-size: larger;
+}
+#butt8{
+    grid-area: block14;
+    color: blue;
+    font-size: larger;
+}
+#butt9{
+    grid-area: block15;
+    color: blue;
+    font-size: larger;
+}
+#buttp{
+    grid-area: block16;
+    color: blue;
+    font-size: larger;
+}
+#butt0{
+    grid-area: block18;
+    color: blue;
+    font-size: larger;
+}
+#buttdt{
+    grid-area: block17;
+    color: blue;
+    font-size: larger;
+}
+#blank{
+    grid-area: block19;
+    color: blue;
+    font-size: larger;
+}
+#butt-{
+    grid-area: block20;
+    color: blue;
+    font-size: larger;
+}
+#Delete{
+    background-color: red;
+    grid-area: block4;
+    font-size: larger;
+}
+#buttE{
+    grid-area: block20;
+    color: blue;
+    font-size: larger;
+}

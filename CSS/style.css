@@ -37,7 +37,7 @@ input[type="text"] {
 }
 #buttD{
     grid-area: block19;
-    color: blue;
+    color: black;
     font-size: larger;
 }
 #butt4{
@@ -57,7 +57,7 @@ input[type="text"] {
 }
 #buttx{
     grid-area: block12;
-    color: blue;
+    color: black;
     font-size: larger;
 }
 #butt7{
@@ -77,7 +77,7 @@ input[type="text"] {
 }
 #buttp{
     grid-area: block16;
-    color: blue;
+    color: black;
     font-size: larger;
 }
 #butt0{
@@ -87,7 +87,7 @@ input[type="text"] {
 }
 #buttdt{
     grid-area: block17;
-    color: blue;
+    color: black;
     font-size: larger;
 }
 #blank{
@@ -97,7 +97,7 @@ input[type="text"] {
 }
 #butt-{
     grid-area: block8;
-    color: blue;
+    color: black;
     font-size: larger;
 }
 #Delete{
@@ -107,6 +107,14 @@ input[type="text"] {
 }
 #buttE{
     grid-area: block20;
-    color: blue;
+    color: black;
     font-size: larger;
+}
+
+:hover.num{
+    background-color: aqua;
+}
+
+.spec{
+    background-color: blue
 }

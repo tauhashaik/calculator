@@ -1,5 +1,7 @@
 .container{
-    padding: 15rem;
+    border: solid 3px black;
+    width: 500px;
+    padding:5px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -34,7 +36,7 @@ input[type="text"] {
     font-size: larger;
 }
 #buttD{
-    grid-area: block8;
+    grid-area: block19;
     color: blue;
     font-size: larger;
 }
@@ -89,12 +91,12 @@ input[type="text"] {
     font-size: larger;
 }
 #blank{
-    grid-area: block19;
+    grid-area: block;
     color: blue;
     font-size: larger;
 }
 #butt-{
-    grid-area: block20;
+    grid-area: block8;
     color: blue;
     font-size: larger;
 }
